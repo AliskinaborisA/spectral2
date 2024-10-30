@@ -1,0 +1,875 @@
+* {
+    box-sizing: border-box;
+}
+
+ body {
+    width: 1280px;
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFEEAA;
+    
+    /* background: url(../img/background.svg) no-repeat #FFEEAA;
+    background-position: center center;
+    min-height:100%; */
+
+} 
+
+.background {
+    background: url(../img/background.svg) no-repeat;
+    width: 1280px;
+    height: 6584px;
+    position: relative;
+    z-index: 1;
+
+} 
+
+/* .background {
+    position: relative;
+    z-index: 3;
+    margin-bottom: -6583px;
+} */
+
+.section-1 {
+    text-align: center;
+    padding-top: 234px;
+    background: url(../img/backgroundfirstsection.svg) no-repeat;
+}
+
+.sectionfirstline {
+    font-family: "Spectral-Regular";
+    font-size: 32px;
+    letter-spacing: 3.84px;
+    text-decoration-line: underline;
+}
+
+.headerfirstline {
+    font-family: "Spectral-SemiBold";
+    font-size: 120px;
+    letter-spacing: 15.6px;
+    margin-top: 51px;
+}
+
+.headersecondline {
+    font-family: "Spectral-Regular";
+    font-size: 90px;
+    letter-spacing: 12.87px;
+}
+
+.lines {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: -34px;
+}
+
+.leftlines {
+    display: flex;
+    align-items: flex-start;
+}
+
+.rightlines {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 400px;
+}
+
+.leftfirsthr {
+    border: 1px solid black;
+    width: 399px;
+    rotate: 90deg;
+    position: relative;
+    z-index: 1;
+    /* margin-left: 6px; */
+    margin-left: -23px;
+}
+
+.leftsecondhr {
+    border: 2px solid black;
+    width: 272px;
+    rotate: 90deg;
+    position: relative;
+    z-index: 1;
+    margin-top: -53px;
+    /* margin-left: -259px; */
+    margin-left: -255px;
+}
+
+.rightfirsthr {
+    border: 2px solid black;
+    width: 272px;
+    rotate: 90deg;
+    position: relative;
+    z-index: 1;
+    margin-top: -53px;
+    margin-left: -69px;
+}
+
+.rightsecondhr {
+    border: 1px solid black;
+    width: 399px;
+    rotate: 90deg;
+    position: relative;
+    z-index: 1;
+    /* margin-left: -213px; */
+    margin-left: -245px;
+}
+
+.section-2 {
+    display: flex;
+    margin-top: 79px;
+    margin-bottom: 53px;
+    justify-content: center;
+}
+
+.firstcolumn {
+    width: 369px;
+    height: 828px;
+    background: url(../img/firstcolumn.svg) no-repeat;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.season {
+    font-family: "Spectral-Medium";
+    font-size: 36px;
+    letter-spacing: 4.68px;
+    margin-top: 192px;
+}
+
+.secondcolumn {
+    width: 369px;
+    height: 828px;
+    background: url(../img/secondcolumn.svg) no-repeat;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.secondseason {
+    color: #FFD220;
+}
+
+.bodyheader {
+    font-family: "Spectral-BoldItalic";
+    font-size: 32px;
+    letter-spacing: 4.16px;
+    color: #FFE479;
+    margin-bottom: 35px;
+    margin-top: 48px;
+}
+
+.authors {
+    font-family: "Spectral-Light";
+    font-size: 20px;
+    letter-spacing: 4.16px;
+    line-height: 96%;
+    color: #FFEB9D;
+    margin-bottom: 188px;
+}
+
+.thirdcolumn {
+    width: 369px;
+    height: 828px;
+    background: url(../img/thirdcolumn.svg) no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.descriptioncolumn {
+    font-family: "Spectral-SemiBold";
+    font-size: 36px;
+    letter-spacing: 4.68px;
+    margin-bottom: 21px;
+}
+
+.thirdC {
+    margin-bottom: 44px;
+}
+
+
+.section-3 {
+    width: 1135px;
+    height: 684px;
+    background: #7B0E0E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.headerrectangle {
+    width: 1092px;
+    height: 132px;
+    border: 5px solid #000;
+    background: #FFE479;
+    text-align: center;
+    margin-top: 58px;
+    
+}
+
+.headerrectangle p {
+    font-family: "Spectral-MediumItalic";
+    font-size: 64px;
+    margin-top: 25px;
+}
+
+.tablets {
+    display: flex;
+    margin-top: 44px;
+}
+
+.lefttablet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 389px;
+    background: url(../img/tablet.svg) no-repeat;
+}
+
+.bwithcircl {
+    position: relative;
+    z-index: 1;
+    width: 154px;
+    height: 299px;
+    margin-top: 100px;
+    margin-left: -43px;
+}
+
+.lefttablet p {
+    font-family: "Spectral-Light";
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    margin-top: -44px;
+}
+
+.righttablet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 389px;
+    background: url(../img/tablet.svg) no-repeat;
+    margin-left: 72px;
+}
+
+.awithcircles {
+    position: relative;
+    z-index: 1;
+    width: 102px;
+    height: 206px;
+    margin-top: 100px;
+}
+
+.righttablet p {
+    font-family: "Spectral-Light";
+    font-size: 20px;
+    position: relative;
+    z-index: 2;
+    margin-top: 49px;
+}
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    align-items: center;
+}
+
+.fourthsectioncontent {
+    display: flex;
+}
+
+.fourthsectiontext {
+    font-family: "Spectral-Regular";
+    font-size: 24px;
+    line-height: 103%;
+    letter-spacing: 3.12px;
+    margin-top: 180px;
+    position: relative;
+    z-index: 2;
+    width: 481px;
+    height: 75px;
+    white-space: nowrap;
+}
+
+.light {
+    position: relative;
+    z-index: 1;
+    margin-left: -606px;
+}
+
+.OwithHands {
+    position: relative;
+    z-index: 2;
+    margin-left: -452px;
+    margin-top: 70px;
+}
+
+.rightblockfourth {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 65px;
+    text-align: right;
+}
+
+.headerstyles {
+    font-family: "Spectral-SemiBold";
+    font-size: 90px;
+    letter-spacing: 11.7px;
+}
+
+.fontvarieties {
+    display: flex;
+    font-size: 32px;
+    letter-spacing: 4.16px;
+    margin-top: 29px;
+
+}
+
+.italicstyles {
+    text-align: right;
+    margin-right: 36px;
+}
+
+.normalstyles {
+    text-align: left;
+}
+
+.ExtraLightItalic {
+    font-family: "Spectral-ExtraLightItalic";
+}
+
+.LightItalic {
+    font-family: "Spectral-LightItalic";
+}
+
+.Italic {
+    font-family: "Spectral-Italic";
+}
+
+.MediumItalic {
+    font-family: "Spectral-MediumItalic";
+}
+
+.SemiBoldItalic {
+    font-family: "Spectral-SemiBoldItalic";
+}
+
+.BoldItalic {
+    font-family: "Spectral-BoldItalic";
+}
+
+.ExtraBoldItalic {
+    font-family: "Spectral-ExtraBoldItalic";
+}
+
+.ExtraLight {
+    font-family: "Spectral-ExtraLight";
+}
+
+.Light {
+    font-family: "Spectral-Light";
+}
+
+.Regular {
+    font-family: "Spectral-Regular";
+}
+
+.Medium {
+    font-family: "Spectral-Medium";
+}
+
+.SemiBold {
+    font-family: "Spectral-SemiBold";
+}
+
+.Bold {
+    font-family: "Spectral-Bold";
+}
+
+.ExtraBold {
+    font-family: "Spectral-ExtraBold";
+}
+
+.floor {
+    width: 1135px;
+    height: 151px;
+    background: #7B0E0E;
+    position: relative;
+    z-index: 0;
+    margin-top: -299px;
+}
+
+.section-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fifthheader {
+    font-family: "Spectral-Medium";
+    font-size: 96px;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 27px;
+}
+
+.ticket {
+    display: flex;
+    background: url(../img/ticket.svg) no-repeat;
+    width: 1128px;
+    height: 484px;
+    align-items: center;
+}
+
+.ticketrectangle {
+    width: 614px;
+    height: 287px;
+    position: relative;
+    z-index: 1;
+    /* margin-bottom: -351px; */
+    /* margin-left: 269px; */
+}
+
+.ticketheader {
+    font-family: "Spectral-SemiBold";
+    font-size: 85px;
+    rotate: 90deg;
+    margin-left: -74px;
+}
+
+.mainpart {
+    display: flex;
+    flex-direction: column;
+    margin-left: -51px;
+    margin-top: 51px;
+}
+
+.firstlineligatures p {
+    font-family: "Spectral-Regular";
+    font-size: 64px;
+    color: #FFD220;
+    margin: 0px 15px -3px 15px;
+}
+
+.firstlineligatures {
+    display: flex;
+    margin-top: -58px;
+    /* margin-left: 280px; */
+}
+
+.secondlineligatures p {
+    font-family: "Spectral-Regular";
+    font-size: 64px;
+    color: #FFD220;
+    margin: 0px 20px -3px 15px;
+}
+
+.secondlineligatures {
+    display: flex;
+    margin-top: 6px;
+    /* margin-left: 280px; */
+}
+
+.thirdsection {
+    /* display: flex;
+    flex-direction: column; */
+    margin-left: 31px;
+}
+
+.headerticketfirst {
+    font-family: "Spectral-SemiBold";
+    font-size: 32px;
+    color: #FFD220;
+    padding-bottom: 40px;
+    margin-top: 79px;
+}
+
+.ticketdate, .tickettime {
+    font-family: "Spectral-Italic";
+    font-size: 32px;
+    color: #FFEB9D;
+}
+
+.ticketdate {
+    padding-bottom: 8px;
+}
+
+.tickettime {
+    padding-bottom: 22px;
+}
+
+.name {
+    font-family: "Spectral-SemiBoldItalic";
+    font-size: 24px;
+    color: #FFD220;
+    padding-bottom:8px
+}
+
+.number {
+    font-family: "Spectral-SemiBoldItalic";
+    font-size: 24px;
+    color: #FFEB9D;
+}
+
+
+.rowplace {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.description {
+    font-family: "Spectral-Bold";
+    font-size: 20px;
+    color: #FFEB9D;
+    padding-bottom: 79px;
+}
+
+.section-6 {
+    width: 1135px;
+    height: 683px;
+    background: #FFD220;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 54px;
+}
+
+.section-6p {
+    font-family: "Spectral-MediumItalic";
+    font-size: 64px;
+    padding-top: 48px;
+}
+
+.sizes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 54px;
+    font-family: "Spectral-Light";
+}
+
+.sizes hr {
+    width: 80px;
+}
+
+.firstp {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    font-size: 128px;
+}
+
+.firstp hr {
+    border: 3px solid black;
+    margin: 0px 0px 0px 0px;
+}
+
+.secondp {
+    display: flex;
+    align-items: center;
+    margin-top: 19px;
+    margin-left: 40px;
+    font-size: 96px;
+}
+
+.secondp hr {
+    border: 3px solid black;
+    margin: 0px 4px 0px 4px;
+}
+
+.thirdp {
+    display: flex;
+    align-items: center;
+    margin-top: 19px;
+    margin-left: 40px;
+    font-size: 64px;
+}
+
+.thirdp hr {
+    border: 2px solid black;
+    margin: 0px 4px 0px 4px;
+}
+
+.fourthp {
+    display: flex;
+    align-items: center;
+    margin-top: 19px;
+    margin-left: 40px;
+    font-size: 48px;
+}
+
+.fourthp hr {
+    border: 1px solid black;
+    margin: 0px 4px 0px 4px;
+}
+
+.fifthp {
+    display: flex;
+    align-items: center;
+    margin-top: 19px;
+    margin-left: 40px;
+    font-size: 32px;
+}
+
+.fifthp hr {
+    border: 1px solid black;
+    margin: 0px 4px 0px 4px;
+}
+
+.section-7 {
+    display: flex;
+    justify-content: center;
+}
+
+.divsection-7 {
+    height: 954px;
+    margin: 79px 41px 139px 41px;
+    display: flex;
+    justify-content: space-around;
+    width: 1116px;
+}
+
+.leftrectangle {
+    border: 3px solid;
+    background-color: #FFD220;
+    width: 549px;
+    height: 954px;
+    text-align: center;
+}
+
+.leftheader {
+    font-family: "Spectral-Medium";
+    font-size: 64px;
+    letter-spacing: 8.32px;
+    color: #7B0E0E;
+    margin-top: 27px;
+}
+
+.leftsecondH {
+    font-family: "Spectral-Italic";
+    font-size: 96px;
+    letter-spacing: 12.48px;
+    margin-top: 44px;
+}
+
+.leftthirdH {
+    font-family: "Spectral-LightItalic";
+    font-size: 32px;
+    letter-spacing: 4.16px;
+}
+
+.leftAandBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.leftfirstblock {
+    font-family: "Spectral-MediumItalic";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin: 59px 22px 0px -15px;
+} 
+
+.leftA {
+    width: 251px;
+    /* height: 609px; */
+    margin-top: -160px;
+    margin-left: 22px;
+    margin-right: -10px;
+}
+
+.FandText {
+    display: flex;
+}
+
+.FandText img{
+    margin: -310px 26px 0px -37px;
+}
+
+.leftTexts {
+    text-align: center;
+    margin-left: 80px;
+}
+
+.leftdate {
+    font-family: "Spectral-BoldItalic";
+    color: #7B0E0E;
+    font-size: 96px;
+    margin-top: -150px;
+}
+
+.lefttime {
+    font-family: "Spectral-ExtraLightItalic";
+    font-size: 64px;
+    margin-top: 20px;
+}
+
+.leftsecondblock {
+    font-family: "Spectral-SemiBoldItalic";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.rightrectangle {
+    border: 3px solid;
+    background-color: #7B0E0E;
+    width: 549px;
+    height: 954px;
+    text-align: center;
+}
+
+.rightheader {
+    font-family: "Spectral-Medium";
+    font-size: 64px;
+    letter-spacing: 8.32px;
+    color: #FFD220;
+    margin-top: 27px;
+}
+
+.rightsecondH{
+    font-family: "Spectral-Regular";
+    font-size: 96px;
+    letter-spacing: 12.48px;
+    margin-top: 44px;
+}
+
+.rightthirdH {
+    font-family: "Spectral-Light";
+    font-size: 32px;
+    letter-spacing: 4.16px;
+}
+
+.rightFandBlock {
+    display: flex;
+
+}
+
+.rightFandBlock img {
+    margin-top: -90px;
+    width: 179px;
+    height: 609px;
+    margin-left: 22px;
+}
+
+.Rtextdate {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightfirstblock {
+    font-family: "Spectral-Medium";
+    font-size: 16px;
+    text-align: left;
+    line-height: 24px;
+    margin-top: 53px;
+    margin-left: 36px;
+}
+
+.rightdate {
+    font-family: "Spectral-Bold";
+    font-size: 96px;
+    color: #FFD220;
+    margin-top: 36px;
+}
+
+.AandText {
+    display: flex;
+}
+
+.RtimeText {
+    display: flex;
+    flex-direction: column;
+    margin-left: 31px;
+    text-align: center;
+}
+
+.righttime {
+    font-family: "Spectral-ExtraLight";
+    font-size: 96px;
+    color: #FFD220;
+    margin-top: -160px;
+}
+
+.rightsecondblock {
+    font-family: "Spectral-SemiBold";
+    font-size: 16px;
+    text-align: left;
+    line-height: 24px;
+    margin-top: 30px;
+    width: 269px;
+}
+
+.AandText img {
+    width: 225px;
+    height: 609px;
+    margin-top: -370px;
+    margin-right: 31px;
+    margin-left: 12px;
+    position: relative;
+    z-index: 0;
+}
+
+.section-8 {
+    background: url(../img/ticket_office.svg) no-repeat;
+    width: 1191px;
+    height: 813px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ticketofficefirst {
+    font-family: "Spectral-ExtraBold";
+    font-size: 64px;
+    letter-spacing: 13%;
+    color: #FFF1BB;
+    margin-top: 25px;
+}
+
+.ticketofficesecond {
+    font-family: "Spectral-Bold";
+    font-size: 40px;
+    line-height: 103%;
+    letter-spacing: 13%;
+    margin-top: 384px;
+}
+
+
+.section-9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 96px;
+    margin-bottom: 62px;
+}
+
+.section-9 p:first-child {
+    font-family: "Spectral-Bold";
+    font-size: 96px;
+    letter-spacing: 13%;
+}
+
+.section-9 p:last-child {
+    font-family: "Spectral-Medium";
+    font-size: 64px;
+    line-height: 150%;
+    letter-spacing: 13%;
+}
